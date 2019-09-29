@@ -15,3 +15,7 @@ Route::get('/', function () {
      return view('welcome');
  });
 Route::view('/admin','backend.layouts.master');
+Route::view('/foo',function ()
+{
+    return "hello world";
+});
