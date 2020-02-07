@@ -1,0 +1,27 @@
+/* html,body{
+    height:100%;
+} */
+.jumbotron{
+    background:url("../imgs/144578_author_byrotek.jpg")  no-repeat center ;
+    background-size:cover;
+    position:relative;
+    border-radius:0px;
+    max-width:100%;
+    height:400px;
+    display:block;
+}
+.footer {
+    padding: 100px;
+    background-color: black;
+
+}
+h1.title{
+    text-align:center;
+    padding:50px;
+    color:wheat;
+    font-family: fantasy;
+}
+a:hover{
+    text-color:green;
+    text-decoration:none;
+}
